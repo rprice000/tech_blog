@@ -44,3 +44,10 @@ id / username / password
 
 Post Model Columns
 id / post title / contents / post creator's name / date created
+
+
+Homepage Needs
+Links to Homepage / Dashboard / Login
+List of all posts if any
+
+
