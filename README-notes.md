@@ -10,8 +10,11 @@ THEN I am prompted to create a username and password
 
 WHEN I click on the sign-up button
 THEN my user credentials are saved and I am logged into the site
+
+
 WHEN I revisit the site at a later time and choose to sign in
 THEN I am prompted to enter my username and password
+
 WHEN I am signed in to the site
 THEN I see navigation links for the homepage, the dashboard, and the option to log out
 WHEN I click on the homepage option in the navigation
@@ -21,8 +24,10 @@ THEN I am presented with the post title, contents, post creator’s username, an
  have the option to leave a comment
 WHEN I enter a comment and click on the submit button while signed in
 THEN the comment is saved and the post is updated to display the comment, the comment creator’s username, and the date created
+
 WHEN I click on the dashboard option in the navigation
 THEN I am taken to the dashboard and presented with any blog posts I have already created and the option to add a new blog post
+
 WHEN I click on the button to add a new blog post
 THEN I am prompted to enter both a title and contents for my blog post
 WHEN I click on the button to create a new blog post
@@ -49,5 +54,13 @@ id / post title / contents / post creator's name / date created
 Homepage Needs
 Links to Homepage / Dashboard / Login
 List of all posts if any
+
+Login page needs
+login form
+js to redirect to dashboard
+
+create account page needs
+create account form
+js to redirect to login
 
 
