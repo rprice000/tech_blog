@@ -1,6 +1,15 @@
+
+
+{{!-- <h2>Welcome, {{user.username}}!</h2> --}}
+<h2>Your Posts</h2>
+
+<div>
+    <button type="submit"><a href="/dashboard/create-post">Create New Post</a></button>
+</div>
+
+
 {{#if posts.length}}
 <section>
-  <h2>Your Posts</h2>
   <ol>
     {{#each posts as |post|}}
     <li>
@@ -11,5 +20,3 @@
   </ol>
 </section>
 {{/if}}
-
-<script src="/javascript/userPost.js"></script>
