@@ -1,16 +1,24 @@
-<form class="createAccount-form">
-  <div>
-    <label for="username-signup">Username</label>
-    <input type="text" id="username-signup" />
+
+
+
+<div class="container">
+  <div class="col align-self-center">
+    <h2>Create An Account</h2>
+    <form class="createAccount-form">
+      <div class="mb-3 col-3">
+        <label for="username-signup" class="form-label">Username</label>
+        <input type="text" class="form-control" id="username-signup" />
+      </div>
+      <div class="mb-3 col-3">
+        <label for="password-signup" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password-signup" />
+      </div>
+      <div>
+        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+      </div>
+    </form>
   </div>
-  <div>
-    <label for="password-signup">Password</label>
-    <input type="password" id="password-signup" />
-  </div>
-  <div>
-    <button type="submit">Submit</button>
-  </div>
-</form>
+</div>
 
 
 <script src="/javascript/createAccount.js"></script>

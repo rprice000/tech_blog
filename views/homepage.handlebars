@@ -1,7 +1,14 @@
-<ol class="post-list">
+<div class="container">
+  <h2>Recent Posts</h2>
+<section class="container">
+<div class="post-list row">
   {{#each posts as |post|}}
-  <li>
-    {{> post-info post }}
-  </li>
+  <div class="col-3">
+    <button type="submit" class="btn btn-dark text-white mb-3">{{> post-info post }}</button>
+  </div>
   {{/each}}
-</ol>
+</div>
+</section>
+
+
+</div>
