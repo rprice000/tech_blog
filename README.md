@@ -59,7 +59,7 @@ https://github.com/rprice000/tech_blog
 
 
 - Link to Deployed Application on Heroku
-https://secure-tundra-62908.herokuapp.com/login
+https://dashboard.heroku.com/apps/arcane-temple-77718
 
 ## Version
 
